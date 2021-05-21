@@ -1,0 +1,102 @@
+body {
+    background-image: url(../img/fondo.png);
+    background-size: 100%;
+}
+
+ .contacto > h2, .contacto > form, .ubicacion, .ubicacion > h2{
+   font-family: 'Fjalla One', sans-serif;
+   text-align: center;
+   font-size: 3vw;
+   color: rgb(14, 247, 255);
+   text-shadow: 2px 1px 3px rgb(0, 0, 0);
+   margin-top: 4%;
+ }
+
+.sobre , .ubicacion{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.sobre > img {
+   margin: 2% 20% 2% 20%;
+}
+.encabezado > h1 , .proyectos > h1 , .conocimientos, .sobre > h1, .sobre{
+   text-align: center;
+   font-size: 4.5vw;
+   color: aqua;
+   font-family: 'Fjalla One', sans-serif;
+   text-shadow: 2px 2px 2px #000000;
+}
+
+.conocimientos > h2 {
+  font-size: 3.5vw;
+}
+.sobre > h3 {
+   font-size: 3vw;
+}
+.conocimientos > p {
+   font-size: 2vw;
+}
+
+.subindice ,.lista > a {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: stretch;
+   text-align: justify;
+   font-family: 'Fjalla One', sans-serif;
+   justify-content: space-evenly;
+   border-left: 2vw;
+   border-style: solid;
+   border-color: rgb(0, 247, 255);
+   margin: 2%;
+   border-radius: 1vw;
+   border-width: 0.4vw;
+}
+.subindice > a , .lista > a{
+   font-size: 3.5vw;
+   font-family: 'Fjalla One', sans-serif;
+   text-decoration: none;
+   text-align: center;
+   color: whitesmoke;
+   text-shadow: 2px 1px 3px rgb(143, 143, 143);
+}
+.subindice > h3 {
+   font-size: 2.5vw;
+   text-align: center;
+}
+.proyectos {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.proyectos > img {
+   justify-content: center;
+   font-size: 80%;
+   margin: 3%;
+}
+.menu {
+   display: flex;
+   flex-flow: row wrap ; 
+   justify-content: space-around;
+
+}
+.menu > a {
+   text-decoration: none;
+   font-size: 3.5vw;
+   font-family: 'Fjalla One', sans-serif;
+   border-style: solid;
+   border-color: aqua;
+   border-radius: 1vw;
+   border-width: 0.4vw;
+   color: rgb(0, 0, 0);
+}
+.menu > a:hover, .subindice > a:hover, .conocimientos > .lista > a:hover {
+   color: rgb(53, 241, 241);
+   font-size: 4.5vw;
+   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.ubicacion > .mapa {
+   justify-content: center;
+   max-width: 100%;
+}
